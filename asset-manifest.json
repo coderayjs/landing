@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.4254ec09.css",
-    "main.js": "/static/js/main.19a06a62.js",
+    "main.js": "/static/js/main.2042ead4.js",
     "static/js/787.d80bfe17.chunk.js": "/static/js/787.d80bfe17.chunk.js",
     "static/media/pyth.svg": "/static/media/pyth.b3774397cf52e9d5238ba1af06e6efcc.svg",
     "static/media/deep-waves.png": "/static/media/deep-waves.92555f9fe9a48dcd3577.png",
-    "static/media/kelsier-ventures.png": "/static/media/kelsier-ventures.26307b3658e5192ebf42.png",
     "static/media/footer-deep-waves.png": "/static/media/footer-deep-waves.773a08edfd4b28762ba7.png",
     "static/media/zerolend.png": "/static/media/zerolend.24166e59712fa007878e.png",
     "static/media/cryptoBanter.png": "/static/media/cryptoBanter.83704d1391db3d9347c0.png",
@@ -17,12 +16,14 @@
     "static/media/Manta.png": "/static/media/Manta.6b411bc06c6152b78ef4.png",
     "static/media/blockchainFounders.png": "/static/media/blockchainFounders.415ff36d4203eb17ed3a.png",
     "static/media/bisonFund.png": "/static/media/bisonFund.1fa7ab41e3bfb128770e.png",
+    "static/media/p2ventures.png": "/static/media/p2ventures.9cf5bb93e8a736dff25f.png",
     "static/media/zero-3d-right.png": "/static/media/zero-3d-right.f9c21bc347138539c0b3.png",
     "static/media/gelato.svg": "/static/media/gelato.db89c622444a457ff41384f9805ce1ed.svg",
     "static/media/zero-3d-left.png": "/static/media/zero-3d-left.67abb917d4ef25fbec77.png",
     "static/media/etherfi.png": "/static/media/etherfi.86ebb2d19766c5c24165.png",
     "static/media/mo-tube-1.png": "/static/media/mo-tube-1.d59fb6921f31baa04c11.png",
     "static/media/era.svg": "/static/media/era.fcc2a14d8124b1b4ecd0b77856068eb0.svg",
+    "static/media/consensys-light.png": "/static/media/consensys-light.6b260a0b5be0f48be55f.png",
     "static/media/eigenpie.png": "/static/media/eigenpie.642d90276010fcc456d8.png",
     "static/media/pufferFi.svg": "/static/media/pufferFi.c14586352c60ad0a601c4be97bb9f91b.svg",
     "static/media/Velocore.svg": "/static/media/Velocore.a768ab30dbccad959ea0354b7868eba0.svg",
@@ -41,11 +42,11 @@
     "index.html": "/index.html",
     "static/media/swell.svg": "/static/media/swell.95c36cc768afe35f011674a08d86eafa.svg",
     "main.4254ec09.css.map": "/static/css/main.4254ec09.css.map",
-    "main.19a06a62.js.map": "/static/js/main.19a06a62.js.map",
+    "main.2042ead4.js.map": "/static/js/main.2042ead4.js.map",
     "787.d80bfe17.chunk.js.map": "/static/js/787.d80bfe17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4254ec09.css",
-    "static/js/main.19a06a62.js"
+    "static/js/main.2042ead4.js"
   ]
 }
