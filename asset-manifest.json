@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d5b7e11.css",
-    "main.js": "/static/js/main.af878a2e.js",
+    "main.js": "/static/js/main.2698f078.js",
     "static/js/787.d80bfe17.chunk.js": "/static/js/787.d80bfe17.chunk.js",
     "static/media/pyth.svg": "/static/media/pyth.b3774397cf52e9d5238ba1af06e6efcc.svg",
     "static/media/deep-waves.png": "/static/media/deep-waves.92555f9fe9a48dcd3577.png",
@@ -18,6 +18,7 @@
     "static/media/bisonFund.png": "/static/media/bisonFund.1fa7ab41e3bfb128770e.png",
     "static/media/blackedge-horizontal-white.png": "/static/media/blackedge-horizontal-white.78a881279d29da87decb.png",
     "static/media/p2ventures.png": "/static/media/p2ventures.9cf5bb93e8a736dff25f.png",
+    "static/media/intotheblock.svg": "/static/media/intotheblock.c0f0f728da423357f72995ed7b95c79c.svg",
     "static/media/zero-3d-right.png": "/static/media/zero-3d-right.f9c21bc347138539c0b3.png",
     "static/media/gelato.svg": "/static/media/gelato.db89c622444a457ff41384f9805ce1ed.svg",
     "static/media/zero-3d-left.png": "/static/media/zero-3d-left.67abb917d4ef25fbec77.png",
@@ -43,11 +44,11 @@
     "index.html": "/index.html",
     "static/media/swell.svg": "/static/media/swell.95c36cc768afe35f011674a08d86eafa.svg",
     "main.9d5b7e11.css.map": "/static/css/main.9d5b7e11.css.map",
-    "main.af878a2e.js.map": "/static/js/main.af878a2e.js.map",
+    "main.2698f078.js.map": "/static/js/main.2698f078.js.map",
     "787.d80bfe17.chunk.js.map": "/static/js/787.d80bfe17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d5b7e11.css",
-    "static/js/main.af878a2e.js"
+    "static/js/main.2698f078.js"
   ]
 }
