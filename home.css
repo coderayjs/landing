@@ -629,8 +629,6 @@ body {
 
 .centered-list ul, li, a {
   list-style: none;
-  padding: 0;
-  margin: 0;
   text-decoration: none;
   color: #FAF9F6;
   cursor: pointer;
@@ -646,30 +644,12 @@ ul, li, a:hover {
   font-size: 24px;
   font-weight: 600;
   color: #05b0ffdf;
-  margin-top: 50px;
   margin-left: 40px;
-  position: relative;
-  top: 1.5rem;
+  position: relative
 }
 
-.logo{
-    position: relative;
-    margin-left: 10px;
-    top: 0.35rem;
-}
 
-.order-button{
-    display: flex;
-    position: relative;
-    background-color: #05b0ffdf;
-    color: #FAF9F6;
-    border: none;
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-}
+
 
 /* card style */
 
@@ -946,8 +926,15 @@ figure:hover img {
 }
 
 .order-button {
-    margin-left: 20px;
-    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    background-color: #05b0ffdf;
+    color: #FAF9F6;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
     cursor: pointer;
 }
 
