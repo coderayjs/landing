@@ -13,7 +13,7 @@ body {
   color: #212427;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background: #101711;
+  
 }
 
 .container {
@@ -139,11 +139,11 @@ body {
 }
 
 #hero-section .title-text:nth-of-type(1) {
-  text-align: right;
+  text-align: center;
 }
 
 #hero-section .title-text:nth-of-type(2) {
-  text-align: left;
+  text-align: center;
 }
 
 #hero-section .title-subtitle {
@@ -616,3 +616,28 @@ body {
     font-size: 18px;
   }
 }
+
+
+.centered-list {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.centered-list ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  
+  
+}
+
+
+
+
+/* card style */
+
