@@ -136,6 +136,8 @@ body {
 #hero-section .title-text {
   font-size: 80px;
   font-weight: 600;
+  position: relative;
+  left: 20px;
 }
 
 #hero-section .title-text:nth-of-type(1) {
@@ -151,6 +153,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: left;
+  position: relative;
+  left: 3.5rem;
+  top: 1.3rem;
 }
 
 #hero-section .subtitle-text {
@@ -174,6 +179,9 @@ body {
   color: white;
   margin-left: auto;
   margin-right: auto;
+    position: relative;
+  left: 20px;
+  top: 1.3rem;
 }
 
 #gradient-canvas {
@@ -689,10 +697,29 @@ body {
 }
 
 .container-title {
+  position: relative;
+  background-color: #1aace5;
+  border-radius: 10px;
+  padding: 10px 20px;
+  bottom: 4.9em;
   text-align: center;
   padding: 0 !important;
   margin-bottom: 40px;
-  font-size: 40px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 60px;
+}
+.testimony-title{
+   position: relative;
+  background-color: #1aace5;
+  border-radius: 10px;
+  padding: 0px 10px;
+  top: 2rem;
+  text-align: center;
+  padding: 0 !important;
+  margin-bottom: 40px;
+  font-size: 30px;
   color: #fff;
   font-weight: 600;
   line-height: 60px;
@@ -904,7 +931,8 @@ figure:hover img {
 .nav-title {
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
+    padding: 0 0px;
 }
 
 
@@ -919,10 +947,12 @@ figure:hover img {
 .centered-list {
     display: flex;
     list-style-type: none;
+    
 }
 
 .centered-list li {
     margin-left: 20px;
+    padding-right: 6rem;
 }
 
 .order-button {
@@ -932,7 +962,7 @@ figure:hover img {
     color: #FAF9F6;
     border: none;
     border-radius: 10px;
-    padding: 15px;
+    padding: 12px;
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
