@@ -155,7 +155,7 @@ body {
   text-align: left;
   position: relative;
   left: 3.5rem;
-  top: 1.3rem;
+  top: 0.3rem;
 }
 
 #hero-section .subtitle-text {
@@ -934,7 +934,5 @@ figure:hover img {
         display: block;
     }
 }
-
-
 
 
