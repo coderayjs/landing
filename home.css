@@ -513,7 +513,7 @@ footer {
 footer div p{
     font-family: rubik one;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 footer div p i.red{
