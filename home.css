@@ -22,7 +22,7 @@ body {
 }
 
 .cta-btn {
-  padding: 10px 12px;
+  padding: 12px 16px; 
   border-radius: 15px;
   background: #05b0ffdf;
   display: flex;
@@ -30,15 +30,14 @@ body {
   justify-content: center;
   margin-top: 32px;
   cursor: pointer;
-  width: max-content;
+  width: fit-content;
   text-decoration: none;
 }
 
 .cta-btn span {
   flex: 1;
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
-  text-transform: uppercase;
   padding: 0 24px;
 }
 
@@ -658,9 +657,8 @@ body {
   padding: 10px 20px;
   bottom: 3.5em;
   text-align: center;
-  padding: 0 !important;
   margin-bottom: 40px;
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   font-weight: 600;
   line-height: 60px;
@@ -674,7 +672,7 @@ body {
   text-align: center;
   padding: 0 !important;
   margin-bottom: 40px;
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   font-weight: 600;
   line-height: 60px;
@@ -690,7 +688,7 @@ body {
   text-align: center;
   padding: 0 !important;
   margin-bottom: 3em;
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   font-weight: 600;
   line-height: 60px;
@@ -934,8 +932,8 @@ figure:hover img {
     color: #FAF9F6;
     border: none;
     border-radius: 10px;
-    padding: 0.3em;
-    margin-left: 5.6em;
+    padding: 12px;
+    left: 2.4em;
     font-size: 15px;
     font-weight: 400;
     cursor: pointer;
