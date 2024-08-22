@@ -514,7 +514,7 @@ background: linear-gradient(90deg, rgba(63,186,95,1) 0%, rgba(3,135,204,1) 40%, 
 footer div p{
     font-family: rubik one;
     letter-spacing: 1px;
-    text-transform: lowercase;
+    
 }
 
 footer div p i.red{
@@ -602,6 +602,14 @@ ul, li, a:hover {
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: -4.5em;
+
+  }
+  
+}
+
 
 
 
@@ -659,8 +667,7 @@ body {
 }
 .testimony-title{
    position: relative;
-  background: rgb(63,186,95);
-  background: linear-gradient(90deg, rgba(63,186,95,1) 0%, rgba(3,135,204,1) 40%, rgba(0,212,255,1) 78%);
+
   border-radius: 10px;
   padding: 0px 10px;
   top: 2rem;
@@ -672,6 +679,23 @@ body {
   font-weight: 600;
   line-height: 60px;
 }
+
+.pricing-title {
+  position: relative;
+  background: rgb(63,186,95);
+  background: linear-gradient(90deg, rgba(63,186,95,1) 0%, rgba(3,135,204,1) 40%, rgba(0,212,255,1) 78%);
+  border-radius: 10px;
+  padding: 10px 20px;
+  bottom: -0.5em;
+  text-align: center;
+  padding: 0 !important;
+  margin-bottom: 3em;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 60px;
+}
+
 
 .card {
   max-width: 550px;
@@ -686,7 +710,7 @@ body {
   background: linear-gradient(71deg, #080509, #1a171c, #080509);
   background-clip: padding-box;
   border-radius: 45px;
-  padding: 40px;
+  padding: 4em 2em;
   img {
     margin-bottom: 32px;
   }
@@ -910,12 +934,13 @@ figure:hover img {
     color: #FAF9F6;
     border: none;
     border-radius: 10px;
-    padding: 12px;
+    padding: 0.3em;
+    margin-left: 5.6em;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 400;
     cursor: pointer;
 }
-
+  
 /* Media Query for Mobile */
 @media (max-width: 768px) {
     .centered-list {
