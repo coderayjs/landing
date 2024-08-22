@@ -43,6 +43,7 @@
     </script>
     <script src="https://kit.fontawesome.com/57e3eef859.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="home.css">
+    <script src="https://js.paystack.co/v1/inline.js"></script>
 </head>
 
 <body>
@@ -59,7 +60,7 @@
                 <li><a href="https://gitbooks.com" target="_self">DOCS</a></li>
                 <li><a href="https://oxacademy.xyz" target="_self">PRICING</a></li>
             </ul>
-            <button  href="https://paystack.com/buy/ox-academy-pryfxh" class="order-button">Order Now</button>
+        <button id="orderButton" class="order-button">Order Now</button>
         </nav>
     </header>
 
@@ -326,6 +327,25 @@
                 navLinks.classList.toggle('active');
             });
 
+    </script>
+    <script>
+        document.getElementById('orderButton').addEventListener('click', function () {
+            var handler = PaystackPop.setup({
+                key: 'pk_test_484ecf94350fff14a263a33003424cbe44c0ed23', // Replace with your public key
+                email: prompt("Please enter your email:"), // Collect email from user
+                amount: 15000000, // Amount in kobo (10,000 NGN)
+                currency: 'NGN',
+                ref: '' + Math.floor((Math.random() * 1000000000) + 1), // Generate a random reference number
+                callback: function (response) {
+                    // Send the reference to your server for verification
+                    window.location.href = 'https://t.me/Oxademybot?start=verify_' + response.reference;
+                },
+                onClose: function () {
+                    alert('Transaction was not completed, window closed.');
+                },
+            });
+            handler.openIframe();
+        });
     </script>
 
 </html>
