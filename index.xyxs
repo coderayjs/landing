@@ -67,7 +67,7 @@
     <section id="hero-section">
         <canvas id="gradient-canvas"></canvas>
         <div class="text-area">
-            <iframe src="https://www.youtube.com/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/ey0L3apPo7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="title-text wow fadeInRight">Accelerate Your </p>
             <p class="title-text wow fadeInLeft"> Forex Trading Knownledge with OXBOT</p>
             <div class="title-subtitle">
